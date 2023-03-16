@@ -1,4 +1,4 @@
-#include <stdio.sh>
+#include <stdio.h>
 
 /**
  * main - a function that prints a given message
