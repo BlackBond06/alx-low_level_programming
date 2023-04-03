@@ -8,7 +8,7 @@
 int main(void)
 {
 
-char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
 return (0);
 
 }
