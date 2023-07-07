@@ -10,10 +10,11 @@
 
 void print_binary(unsigned long int n)
 {
+	int j;
 	int counter = 0;
 	unsigned long int current_value;
 
-	for (int j = 63; j >= 0; j--)
+	for (j = 63; j >= 0; j--)
 	{
 		current_value = n >> j;
 
@@ -27,10 +28,4 @@ void print_binary(unsigned long int n)
 	}
 	if (!counter)
 		_putchar('0');
-}
-
-
-
-
-
 }
